@@ -1,12 +1,12 @@
-# ⚡ Arduino LCR Meter – Resistance Measurement Mode
+# Arduino LCR Meter – Resistance Measurement Mode
 
-## 📘 Overview  
+##  Overview  
 This project is a part of the **Arduino LCR Meter**, designed to measure **unknown resistances (Rx)** using the **voltage divider principle**.  
 By combining the unknown resistor with known resistors and reading voltage differences via Arduino ADC pins, the system calculates the resistance across a wide range (from a few ohms to tens of megaohms).
 
 ---
 
-## ⚙️ Principle  
+##  Principle  
 
 The circuit forms a **voltage divider** with the unknown resistor (Rx) and selected known resistors (R1–R4).  
 The voltage across Rx is measured using two ADC pins:
@@ -28,7 +28,7 @@ Where:
 
 ---
 
-## ⚡ Circuit Diagram (ASCII Representation)
+##  Circuit Diagram (ASCII Representation)
 
         D8 ── R1 ──┐
                    │
