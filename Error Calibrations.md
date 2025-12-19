@@ -52,7 +52,8 @@ Where:
 - Lower Rload → higher current → more accurate measurement of R_internal.  
 - Apply `R_internal` as a correction factor in your LCR meter code to improve **low-resistance readings**:
 
-```cpp
+
+
 double Rx_corrected = Rx_measured - R_internal;
 
 
